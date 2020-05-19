@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+<AnchorPane id="AnchorPane" prefHeight="117.0" prefWidth="424.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CreateUserController">
+   <children> 
+   	<Button fx:id="button" layoutX="238.0" layoutY="52.0" onAction="#handleButtonAction" text="Create New User" />  
+   	<TextField fx:id="username" layoutX="30.0" layoutY="52.0" prefHeight="25.0" prefWidth="183.0" text="" />
+      <Label layoutX="37.0" layoutY="78.0" prefHeight="25.0" prefWidth="105.0" />
+      <Label layoutX="29.0" layoutY="8.0" prefHeight="31.0" prefWidth="154.0" text="New User">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children> 
+</AnchorPane>
